@@ -64,6 +64,7 @@ void Gain::ProcessDoubleReplacing(double** inputs, double** outputs, int nFrames
   double* out1 = outputs[0];
   double* out2 = outputs[1];
   
+  // Bypass doesn't work correctly
   if (!bypass) {
     
       for (int s = 0; s < nFrames; ++s, ++in1, ++in2, ++out1, ++out2) {
