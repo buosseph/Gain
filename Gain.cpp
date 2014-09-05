@@ -43,9 +43,13 @@ Gain::Gain(IPlugInstanceInfo instanceInfo)
   pGraphics->AttachPanelBackground(&background);
 
   // Bitmap doesn't have knob in neutral position
-  IBitmap knob = pGraphics->LoadIBitmap(KNOB_ID, KNOB_FN, kKnobFrames);
+  IBitmap knobImage = pGraphics->LoadIBitmap(KNOB_ID, KNOB_FN, kKnobFrames);
+  IBitmap customKnobImage = pGraphics->LoadIBitmap(CUSTOM_KNOB_ID, CUSTOM_KNOB_FN);
+  
 
-  pGraphics->AttachControl(new IKnobMultiControl(this, kGainX, kGainY, gainParam, &knob));
+  // Setting up GUI controls
+  pGraphics->AttachControl(new IKnobMultiControl(this, kGainX, kGainY, gainParam, &knobImage));
+  pGraphics->AttachControl(new IKnobRotaterControl(this, 60, 120, panParam, &customKnobImage));
 
   AttachGraphics(pGraphics);
 

@@ -275,6 +275,12 @@
 		4FF016F8134E14E2001447BA /* ptrlist.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF016F5134E14E2001447BA /* ptrlist.h */; };
 		4FF016F9134E14E2001447BA /* wdlstring.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF016F6134E14E2001447BA /* wdlstring.h */; };
 		4FF0171A134E153A001447BA /* heapbuf.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF01719134E153A001447BA /* heapbuf.h */; };
+		C5A2D15D19B957DF006D7327 /* custom_knob.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A2D15C19B957DF006D7327 /* custom_knob.png */; };
+		C5A2D15E19B957DF006D7327 /* custom_knob.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A2D15C19B957DF006D7327 /* custom_knob.png */; };
+		C5A2D15F19B957DF006D7327 /* custom_knob.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A2D15C19B957DF006D7327 /* custom_knob.png */; };
+		C5A2D16019B957DF006D7327 /* custom_knob.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A2D15C19B957DF006D7327 /* custom_knob.png */; };
+		C5A2D16119B957DF006D7327 /* custom_knob.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A2D15C19B957DF006D7327 /* custom_knob.png */; };
+		C5A2D16219B957DF006D7327 /* custom_knob.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A2D15C19B957DF006D7327 /* custom_knob.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -663,6 +669,7 @@
 		52FBBED00D0CF139001C8B8A /* Gain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.cpp.cpp; path = Gain.cpp; sourceTree = "<group>"; tabWidth = 2; usesTabs = 0; };
 		52FBBED20D0CF13D001C8B8A /* Gain.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.h; path = Gain.h; sourceTree = "<group>"; tabWidth = 2; usesTabs = 0; };
 		52FBBED30D0CF143001C8B8A /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.h; path = resource.h; sourceTree = "<group>"; tabWidth = 2; usesTabs = 0; };
+		C5A2D15C19B957DF006D7327 /* custom_knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom_knob.png; sourceTree = "<group>"; };
 		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -1268,6 +1275,7 @@
 		4FD16A0213B6303B001D0217 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				C5A2D15C19B957DF006D7327 /* custom_knob.png */,
 				4F23B9E413B647A00097A67E /* knob.png */,
 			);
 			name = img;
@@ -1679,6 +1687,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5A2D15E19B957DF006D7327 /* custom_knob.png in Resources */,
 				4F23B9F313B647A00097A67E /* knob.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1687,6 +1696,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5A2D16019B957DF006D7327 /* custom_knob.png in Resources */,
 				4F23BA0C13B647A00097A67E /* knob.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1695,6 +1705,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5A2D16119B957DF006D7327 /* custom_knob.png in Resources */,
 				4F7F5C4613E95EC8002918FD /* knob.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1703,6 +1714,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5A2D15F19B957DF006D7327 /* custom_knob.png in Resources */,
 				4F9828B1140A9EB700F3FCC1 /* knob.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1711,6 +1723,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5A2D16219B957DF006D7327 /* custom_knob.png in Resources */,
 				4FB600161567CB0A0020189A /* knob.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1720,6 +1733,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F78D88613B6382B0032E0F3 /* Gain.icns in Resources */,
+				C5A2D15D19B957DF006D7327 /* custom_knob.png in Resources */,
 				4F78D89913B639100032E0F3 /* InfoPlist.strings in Resources */,
 				4F78D89A13B639100032E0F3 /* MainMenu.xib in Resources */,
 				4F23B9FD13B647A00097A67E /* knob.png in Resources */,
